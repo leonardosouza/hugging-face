@@ -108,4 +108,4 @@ Este projeto serve como um *playground* e demonstração prática de diversas ap
 - `.venv/`: O diretório do ambiente virtual Python, onde as dependências do projeto são instaladas.
 
 ---
-**Desenvolvido por: [Seu Nome/Organização]**
+**Desenvolvido por: Leonardo Souza**

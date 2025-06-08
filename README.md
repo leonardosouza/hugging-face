@@ -11,6 +11,7 @@ Este projeto é uma coleção de scripts Python que demonstram a utilização de
     - `fill_mask_models.py`: Exemplos que iteram sobre diferentes modelos de preenchimento de máscara, como `FacebookAI/xlm-roberta-base`, `neuralmind/bert-base-portuguese-cased` e `pucpr/biobertpt-clin`.
 - **API de Inferência**: Um script (`inference_api.py`) que demonstra como interagir diretamente com a API de Inferência da Hugging Face para realizar chamadas a modelos.
 - **Uso Direto da Biblioteca Transformers**: O script `transformer.py` mostra o uso direto da biblioteca `transformers` para carregar e tokenizar modelos.
+- **Tradução de Texto**: O script `translation.py` demonstra a utilização do modelo `facebook/mbart-large-50-many-to-many-mmt` para traduzir textos do português para outras línguas.
 
 ## Como Rodar
 
@@ -58,6 +59,11 @@ Este projeto é uma coleção de scripts Python que demonstram a utilização de
    python inference_api.py
    ```
 
+- **Para rodar o script de Tradução**:
+   ```bash
+   python translation.py
+   ```
+
 ## Estrutura do Projeto
 
 - `README.md`: Este arquivo.
@@ -69,6 +75,7 @@ Este projeto é uma coleção de scripts Python que demonstram a utilização de
 - `my_chatbot.py`: Exemplo de chatbot básico.
 - `restrict_models.py`: (Atualmente vazio) Pode ser usado para definir restrições de modelos.
 - `transformer.py`: Exemplo de uso direto da biblioteca `transformers`.
+- `translation.py`: Script para demonstração de tradução de texto.
 - `.env`: Arquivo para variáveis de ambiente (token de acesso da Hugging Face).
 - `.gitignore`: Arquivo para ignorar arquivos e diretórios específicos no controle de versão.
 - `.python-version`: Define a versão do Python usada (geralmente para `pyenv`).

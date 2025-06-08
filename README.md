@@ -73,9 +73,12 @@ Este projeto é uma coleção de scripts Python que demonstram a utilização de
 - `inference_api.py`: Exemplo de interação com a API de Inferência da Hugging Face.
 - `main.py`: Ponto de entrada principal (atualmente simples).
 - `my_chatbot.py`: Exemplo de chatbot básico.
-- `restrict_models.py`: (Atualmente vazio) Pode ser usado para definir restrições de modelos.
+- `restrict_models.py`: (Atualmente vazio) Pode ser usado para definir restrições de modelos, ou para registrar quais modelos específicos estão sendo utilizados.
+- `summary.py`: Script que utiliza o modelo `csebuetnlp/mT5_multilingual_XLSum` para gerar resumos de texto a partir do `conteudo.txt`.
 - `transformer.py`: Exemplo de uso direto da biblioteca `transformers`.
 - `translation.py`: Script para demonstração de tradução de texto.
+- `conteudo.txt`: Arquivo de texto contendo o conteúdo a ser resumido pelo `summary.py`.
+- `requirements.txt`: Lista as dependências do projeto, como `streamlit`, `transformers`, `python-dotenv` e `requests`, essenciais para a execução dos scripts.
 - `.env`: Arquivo para variáveis de ambiente (token de acesso da Hugging Face).
 - `.gitignore`: Arquivo para ignorar arquivos e diretórios específicos no controle de versão.
 - `.python-version`: Define a versão do Python usada (geralmente para `pyenv`).
